@@ -2,17 +2,16 @@
     text-align: center;
 }
 
-
-.principal p:first-child {
-    font-size: 1.8rem;
+.principal p:first-child{
+    font-size:2.8rem;
 
     color: var(--cor-primaria);
 
-    margin: 10% 0;
+    margin:15% 0;
 }
 
-.principal p:last-child {
+.principal p:last-child{
     font-size: 2rem;
 
-    color: var(--cor-primaria);
+    color:var(--cor-primaria)
 }

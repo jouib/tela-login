@@ -8,9 +8,9 @@
     align-items: center;
 }
 
-.cabecalho h1 {
-    color: var(--branco-suave);
-    margin-left: 3%;
+.cabecalho img {
+    height: 100%;
+    margin-left: 3px;
 }
 
 .cabecalho a {
