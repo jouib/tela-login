@@ -8,9 +8,9 @@
     align-items: center;
 }
 
-.cabecalho img {
+.imgLogo, 
+.imgLogo img {
     height: 100%;
-    margin-left: 3px;
 }
 
 .cabecalho a {
