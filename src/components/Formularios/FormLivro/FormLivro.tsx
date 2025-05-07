@@ -12,7 +12,7 @@ function FormLivro() {
         quantTotal: 0,
         quantDisponivel: 0,
         valorAquisicao: 0,
-        statusLivroEmprestado: ''
+        tatusLivroEmprestado: ''
     });
 
     // Função para atualizar o state
@@ -65,6 +65,7 @@ function FormLivro() {
                             type="text"
                             name="editora"
                             id="editora"
+                            required
                             onChange={(e) => handleChange("editora", e.target.value)}
                         />
                     </label>
@@ -75,6 +76,7 @@ function FormLivro() {
                             type="number"
                             name="anoPublicacao"
                             id="anoPublicacao"
+                            required
                             minLength={6}
                             onChange={(e) => handleChange("anoPublicacao", e.target.value)}
                         />
@@ -97,6 +99,7 @@ function FormLivro() {
                             type="number"
                             name="quantTotal"
                             id="quantTotal"
+                            required
                             minLength={10}
                             maxLength={13}
                             onChange={(e) => handleChange("quantTotal", e.target.value)}
@@ -108,6 +111,7 @@ function FormLivro() {
                             type="number"
                             name="quantDisponivel"
                             id="quantDisponivel"
+                            required
                             minLength={10}
                             maxLength={13}
                             onChange={(e) => handleChange("quantDisponivel", e.target.value)}
